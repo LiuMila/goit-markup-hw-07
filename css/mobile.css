@@ -1,0 +1,19 @@
+@media screen and (min-width:480px){
+    .container{
+        max-width: 426px;
+        margin-left: auto;
+        margin-right: auto;}
+   
+    
+ /* SECTION */    
+.section-icon-link{display: none;}
+.section-item-text{text-align: center;}
+.section > .container{
+    width: 480px;
+ }
+    
+    .footer-i{margin-top: 72px;}
+    
+    
+
+    }

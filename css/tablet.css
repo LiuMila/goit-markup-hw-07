@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px){
+    .container{ max-width: 768px;
+        margin: 0 auto;}
+
+
+
+ /* SECTION */
+ .section > .container{
+    width: 768px;
+ } 
+ .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.section-item { width: 356px; }
+
+.section-icon-link{display:none;} 
+.section-item-text{text-align: left;}
+
+/* TEAM */
+.team {padding-top: 96px;
+    padding-bottom: 104px;}
+
+.team-item{width:calc((100% - 30px) / 2);}
+
+/* CUST */
+    .cust {padding-top: 96px; ;
+        padding-bottom:96px ;
+    }
+
+    .cust-item {width: calc((100% - 60px) / 3);
+    }
+    /* FOOTER */
+    .footer > .container{width: 582px;
+        align-items:start;
+    justify-content: left;}
+
+    .footer {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        display: flex;
+       flex-wrap: wrap;}
+
+    .footer-link{text-align: left;}
+
+    .footer-right{width: calc((100%-30px) / 2);}
+    
+    .footer-i{width: calc((100%-30px) / 2);
+        margin-top: 0;}
+}
