@@ -4,14 +4,161 @@
         padding-left: 15px;
     margin: 0 auto;
     }
-/* TEAM */
-.team {padding-top: 120px;
-    padding-bottom: 120px;}
-    .team-item{width:calc((100% - 90px) / 4);}
+
+
+/* HEADER */
+/* .header > .container{
+    display: flex;
+    align-items: center;
+}
+.header-adress, .header-nav, .header-tel{display: flex;}
+.header-nav {
+    margin-right: auto;
+}
+.header-nav-list {list-style: none; 
+display: flex;
+align-items: center;
+gap: 40px;
+margin-left: 76px;
+}
+
+.header {padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.header-link{left: 156px;
+margin-right: 76px;}
 
 
 
+.link {text-decoration: none;
+    list-style: none;}
+.header-nav-item-link{font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;  
+    color:var(--main-color);
+    position: relative;
+    transition: color var(--focus-transition);
+}
+.header-adress {font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-ad);
+    margin-right: 40px;
+    transition: color var(--focus-transition);}
 
+.header-tel {font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-ad);
+    transition: color var(--focus-transition);} */
+    .header {padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E7E9FC;
+    }
+    .header-link {font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    margin-right: 76px;}
+
+
+    .link {text-decoration: none;
+        list-style: none;}
+    
+    .span{color:var(--span-color);}
+
+    .header-nav {
+        margin-right: auto;
+    }
+    .header-nav-list {list-style: none; 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header > .container{
+    display: flex;
+    align-items: center;
+}
+
+    .header-nav-item {
+    }
+
+    .header-nav-item-link:focus, .header-nav-item-link:hover {
+        color:var(--span-color); }
+    
+     .header-nav-item-link{font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;  
+        color:var(--main-color);
+        position: relative;
+        transition: color var(--focus-transition);
+    }
+
+    .header-nav-item-link.current::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        background: var(--cur-color);
+        border-radius: 2px;
+        top: 42px;
+    
+    }
+
+    .header-adress {font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--header-ad);
+        margin-right: 40px;
+        transition: color var(--focus-transition);}
+
+    .header-adress:hover, .header-adress:focus{  
+            color:var(--span-color);}
+
+    .header-tel:hover, .header-tel:focus {
+            color:var(--span-color);}
+    
+    .header-tel {font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--header-ad);
+        transition: color var(--focus-transition);}
+
+    /* MENU */
+    .menu-open{display: none;}
+
+
+    /* HERO */
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 108px;
+        background-image:var(--bg-hero-gradient),
+        url(../images/bgdesk.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {background-image:var(--bg-hero-gradient),
+        url(../images/bgdesk-2x.jpg);
+        
+      }
+    }
+
+    .hero-text {font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        color: var(--white-color);
+    max-width : 500px;
+}
 
 /* SECTION */
 .section > .container{width: 1158px;}
@@ -31,6 +178,14 @@
 
 .section-item-parag
  {  font-size: 16px;}
+
+/* SEC */
+.sec{display: flex;}
+
+/* TEAM */
+.team {padding-top: 120px;
+    padding-bottom: 120px;}
+    .team-item{width:calc((100% - 90px) / 4);}
 
 
 /* CUST */

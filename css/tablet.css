@@ -2,6 +2,61 @@
     .container{ max-width: 768px;
         margin: 0 auto;}
 
+/* HEADER */
+.header-adress, .header-nav, .header-tel{display: flex;}
+.header-link {
+left: 16px;}
+
+.header > .container{
+    display: flex;
+    align-items: center;
+}
+.header-adress, .header-nav, .header-tel{display: flex;}
+.header-nav {
+    margin-right: auto;
+}
+.header-nav-list {list-style: none; 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 123px;
+    }
+    
+    .nav-adr-tel {
+        margin-left: 118px;
+    display: flex;
+    flex-wrap: wrap;
+padding-top: 24px;
+padding-bottom: 10px;
+column-gap: 4px;}
+
+
+/* MENU */
+.menu-open{display: none;}
+/* HERO */
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image:var(--bg-hero-gradient),
+    url(../images/bgtab.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {background-image:var(--bg-hero-gradient),
+    url(../images/bgtab-2x.jpg);
+    
+  }
+}
+
+   .hero-text {font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        color: var(--white-color);
+    max-width : 494px;
+}
+
+ 
 
 
  /* SECTION */
