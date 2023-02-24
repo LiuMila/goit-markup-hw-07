@@ -33,13 +33,11 @@ height: auto;}
 
     
 /* CONTAINER */
-.container{  /* width: 448px; */
-    min-width: 320px;
+.container{
     max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   outline: 1px solid none;
 
 }
@@ -64,7 +62,8 @@ height: auto;}
         letter-spacing: 0.03em;
         text-transform: uppercase;
         position: absolute;
-    left:16px;}
+    left:16px;
+    color: #2E2F42;}
 
 
     .link {text-decoration: none;
@@ -395,7 +394,7 @@ height: 40px;}
     flex-wrap: wrap;
     gap: 24px;
     width: 100%;
-    justify-content: center;}
+    justify-content: space-between;}
 
     .team-item {
         background: #FFFFFF;

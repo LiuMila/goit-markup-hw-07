@@ -58,9 +58,6 @@ gap: 40px;}
 
 
  /* SECTION */
- .section > .container{
-    max-width: 768px;
- } 
  .section {
     padding-top: 96px;
     padding-bottom: 96px;

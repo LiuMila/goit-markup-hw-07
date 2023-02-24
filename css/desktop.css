@@ -1,8 +1,7 @@
 @media screen and (min-width:1200px){
     .container{
-        max-width: 1158px;
-        padding-left: 15px;
-    margin: 0 auto;
+        max-width: 1128px;
+        
     }
 
 
@@ -18,8 +17,6 @@
     padding-bottom: 24px;}
 
 
-    .link {text-decoration: none;
-        list-style: none;}
     
     .span{color:var(--span-color);}
 
@@ -37,7 +34,7 @@
     align-items: center;
 }
 
-.frs{color:#4D5AE5;}
+/* .frs{color:#4D5AE5;} */
 
     .header-nav-item-link:focus, .header-nav-item-link:hover {
         color:var(--span-color); }
@@ -46,7 +43,6 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;  
-        color:var(--main-color);
         position: relative;
         transition: color var(--focus-transition);
     }
@@ -73,6 +69,7 @@
 
     /* HERO */
     .hero {
+        max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
         background-image:var(--bg-hero-gradient),
@@ -95,7 +92,6 @@
 }
 
 /* SECTION */
-.section > .container{max-width: 1158px;}
 
 .section {
     padding-top: 120px;
@@ -122,16 +118,22 @@
 }
 
 .section-item-parag
- {  font-size: 16px;}
+ {  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
 
 /* SEC */
-.sec{display: flex;
+.sec{display: block;
 padding-top: 120px;}
 
 /* TEAM */
 .team {padding-top: 120px;
     padding-bottom: 120px;}
-    .team-item{width:calc((100% - 90px) / 4);}
+    
+.team-item{width:calc((100% - 90px) / 4);}
 
 
 /* CUST */
@@ -143,8 +145,7 @@ padding-top: 120px;}
 
     /* FOOTER */
     .footer > .container{width: 1158px;
-        align-items:start;
-    /* justify-content: left; */
+        
 }
 
     .footer {background: var(--main-color);
@@ -157,6 +158,9 @@ padding-top: 120px;}
     margin-top: 0;
     width:auto;}
 
+.footer-right{
+        margin-right: 0;
+    }
 
 /* .footer-right{width: 264px;} */
 
@@ -167,11 +171,5 @@ padding-top: 120px;}
     margin-top: 0;
 }
 
-
-.modal {position: absolute;
-    width: 408px;
-    min-height: 584px;
-
-}
 
 }
