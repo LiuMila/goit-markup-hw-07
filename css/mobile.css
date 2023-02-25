@@ -1,17 +1,12 @@
 @media screen and (min-width:480px){
-    .container{
-    }
+  
    
     
  /* SECTION */    
 .section-icon-link{display: none;}
 .section-item-text{text-align: center;}
-/* .section > .container{
-    width: 480px;
- } */
+
     
-    .footer-i{margin-top: 72px;}
-    .frs{color:#4D5AE5;}
     
 
     }
