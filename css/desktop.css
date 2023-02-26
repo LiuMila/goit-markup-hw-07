@@ -62,7 +62,13 @@
 
    .nav-adr-tel{
     display: flex;
+    gap: 40px;
+    
    }
+.header-adress, .header-tel{font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
 
     /* MENU */
     .modal {width: 408px;}
